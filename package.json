@@ -1,0 +1,24 @@
+{
+    "name": "my-node-api",
+    "version": "1.0.0",
+    "description": "A simple Node.js API project",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Tu Nombre",
+    "license": "MIT",
+    "dependencies": {
+        "bscript": "^0.1.0",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "mongoose": "^8.5.1",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
